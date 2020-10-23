@@ -53,13 +53,6 @@ const Home = ()=>{
         .catch(error => console.log(error))
     }
 
-    const createUser = (name, date) => {
-        setUser({
-            name,
-            date
-        })
-    }
-
     return (
         <div className="home">            
             <div className="container">

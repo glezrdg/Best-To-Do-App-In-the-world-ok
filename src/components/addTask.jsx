@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Task from '../data';
 
 const AddTask = ({ handleAdd, addVar, addTask }) => {
 
